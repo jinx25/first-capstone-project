@@ -1,0 +1,218 @@
+     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+     
+     body{
+         background-color: hsl(218, 28%, 13%);
+         color: hsl(0, 0%, 100%);
+         
+     }
+
+     .top{
+         display: flex;
+         justify-content: space-between;
+         padding: 1em 5em;
+     }
+     .top a {
+         color: white;
+         text-decoration: none;
+     }
+     .nav-item {
+         font-family: 'Raleway';
+         display: flex;
+         justify-content: space-between;
+         width: 200px;
+         list-style-type: none;
+        
+     }
+     .text{
+         font-family: 'Raleway';
+         font-size: 30px;
+     }
+    
+
+    .container1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+    .btn{
+        font-family: 'Open San';
+        font-weight: bold;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        background-image: linear-gradient(150deg, #65e2d9, 40%, #339ecc);
+    }
+    .btn-get-started {
+        width: 200px;
+    }
+    .btn-free {
+        width: 200px;
+    }
+
+    .container2{
+        display:grid;
+        grid-template-columns: 300px 300px;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    article{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .article h3{
+        font-family: 'Raleway';
+    }
+    .container3{
+        display: flex;
+        justify-content: space-around;
+        padding: 90px;
+        margin: 30px;
+    } 
+    .stay{
+        margin-top: 10px;
+    }
+    .stay h2{
+            font-family: 'Open San';
+            font-size: 50px;
+    }
+    .stay1{
+        margin-block: auto;
+    } 
+    .stay a{
+        text-decoration: none;
+        color:purple;
+    }
+     a:hover{
+            color: white;
+    }
+   
+    .container5{
+
+        border-radius: 20px;
+        width: 50%;
+        height: 250px;
+        margin: 50px auto;
+        padding: 50px 20px 30px 20px;
+        text-align: center;
+       background: linear-gradient(35deg,#202A3C,#202A3C);
+    }
+    .container5 p{
+        font-family: 'Raleway';
+    }
+
+    .fr5{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+    .fr5 input{
+        
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+        width: 400px;
+      
+    }
+    .bg-quotes{
+        margin-left: 80px;
+        position: absolute;
+        
+    }
+    
+
+    .users{
+        display:flex;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 32px;
+    
+    }
+
+    .user1{ 
+        font-family: 'Raleway';
+        width:30%;
+        position: relative;
+        border: 1px solid #202a3c;
+        margin: 10px 5px;
+        border-radius: 30px;
+        background: linear-gradient(35deg,#202A3C,#202A3C);
+    }
+
+    .img{
+        align-self: center;
+        border-radius: 70%;
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-top: 18px;
+    }
+    .its{
+        display: flex;
+        margin: 0;
+        padding: 40px;
+        
+    }
+    .margin{
+        padding-left: 18px;
+    }
+
+    .small{
+        font-size: small;
+    }
+    .flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
+    .ftn2{
+        display:flex;
+        justify-content: space-around;
+     
+    }
+    .ftn2 ul{
+        list-style-type: none;
+
+    }
+    .flex{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .contact{
+        display: flex;
+    }
+    .contact img{
+        height: 25px;
+        padding: 15px;
+    }
+    .lists{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .lists ul{
+        list-style-type: none;
+    }
+    .lists a{
+        text-decoration: none;
+        color: white;
+    }
+    .lists a:hover{
+        font-family: 'Raleway';
+        font-weight: bold;
+        transition: .3s ease-out;
+    }
+    .foot{
+        padding: 10px  120px 20px;
+    }
+.flyo-logo{
+    padding: 0px 10px 40px 0px;
+}
+    .icons img{    
+        border-radius: 100%;
+    }
+    .icons img:hover {
+        background-color: #8ED1E2;
+        border-radius: 100%;
+    }
